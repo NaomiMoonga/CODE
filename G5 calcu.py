@@ -17,7 +17,7 @@ def divide(a, b):
 def modulus(a, b):
     if z == 0:
         messagebox    if z == 0:
-        messagebox.showerror("Error", "Cannot divide by zero")
+        messagebox.showerror("Error", "Undefined")
         return None
     return a / b.showerror("Error", "Cannot perform modulus by zero")
         return None
