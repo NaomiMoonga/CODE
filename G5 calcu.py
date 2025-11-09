@@ -6,20 +6,20 @@ history = []
 memory = 0
 
 # Arithmetic functions
-def subtract(a, b): return a - b
-def add(a, b): return a + b
-def multiply(a, b): return a * b
+def subtract(a, b): 
+        return a - b
+def add(a, b): 
+        return a + b
+def multiply(a, b): 
+        return a * b
 def divide(a, b):
-        if z == 0:
+        if b == 0:
          messagebox.showerror("Error", "Undefined")
         return None
-    return a / b
+        return a / b
 def modulus(a, b):
-    if z == 0:
-        messagebox    if z == 0:
+    if b == 0:
         messagebox.showerror("Error", "Undefined")
-        return None
-    return a / b.showerror("Error", "Cannot perform modulus by zero")
         return None
     return a % b
 
