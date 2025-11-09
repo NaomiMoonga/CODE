@@ -23,26 +23,26 @@ def modulus(a, b):
         return None
     return a % b
 
-# Update history
+#  history of previous calculations 
 def update_history(num1, op, num2, result):
     if result is not None:
         history.append(f"{num1} {op} {num2} = {result}")
     else:
         history.append(f"{num1} {op} {num2} = Error")
 
-# Show history
+# show history
 def show_history():
     if not history:
         messagebox.showinfo("History", "No history yet.")
     else:
         messagebox.showinfo("History", "\n".join(history))
 
-# Clear history
+# clear history
 def clear_history():
     history.clear()
     messagebox.showinfo("Previous history", "History deleted.")
 
-# Perform calculation
+# work calculation
 def calculate():
     try:
         num1 = float(entry1.get())
@@ -72,7 +72,7 @@ def calculate():
     except ValueError:
         messagebox.showerror("Input Error", "Please enter valid numbers.")
 
-# Memory functions
+# memory functions
 def memory_add():
     global memory
     try:
@@ -101,7 +101,7 @@ def memory_clear():
     memory = 0
     messagebox.showinfo("Memory", "Memory cleared.")
 
-# GUI setup
+# Graphical User Interface setup
 root = tk.Tk()
 root.title("G5 Calculator")
 
