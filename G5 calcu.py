@@ -10,12 +10,12 @@ def subtract(a, b): return a - b
 def add (a, b): return a + b
 def divide(a, b): return a / b
 def divide(a, b):
-    if y == 0:
+    if z == 0:
         messagebox.showerror("Error", "Cannot divide by zero")
         return None
     return a / b
 def modulus(a, b):
-    if y == 0:
+    if z == 0:
         messagebox.showerror("Error", "Cannot perform modulus by zero")
         return None
     return a % b
