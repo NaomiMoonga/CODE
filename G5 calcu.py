@@ -11,7 +11,7 @@ def add (a, b): return a + b
 def def multiply(a, b): return a * b
 def divide(a, b):
     if z == 0:
-        messagebox.showerror("Error", "Cannot divide by zero")
+        messagebox.showerror("Error", "Undefined")
         return None
     return a / b
 def modulus(a, b):
