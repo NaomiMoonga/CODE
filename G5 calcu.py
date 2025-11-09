@@ -37,7 +37,7 @@ def show_history():
 # Clear history
 def clear_history():
     history.clear()
-    messagebox.showinfo("History", "Calculation history cleared.")
+    messagebox.showinfo("Previous history", "History deleted.")
 
 # Perform calculation
 def calculate():
