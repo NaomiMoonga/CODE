@@ -6,19 +6,19 @@ history = []
 memory = 0
 
 # Arithmetic functions
-def subtract(x, y): return x - y
-def add (x, y): return x + y
-def devide(x, y): return x / y
-def divide(x, y):
+def subtract(a, b): return a - b
+def add (a, b): return a + b
+def devide(a, b): return a / b
+def divide(a, b):
     if y == 0:
         messagebox.showerror("Error", "Cannot divide by zero")
         return None
-    return x / y
-def modulus(x, y):
+    return a / b
+def modulus(a, b):
     if y == 0:
         messagebox.showerror("Error", "Cannot perform modulus by zero")
         return None
-    return x % y
+    return a % b
 
 # Update history
 def update_history(num1, op, num2, result):
