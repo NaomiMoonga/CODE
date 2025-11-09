@@ -14,14 +14,14 @@ def multiply(a, b):
         return a * b
 def divide(a, b):
         if b == 0:
-         messagebox.showerror("Error", "Undefined")
-        return None
+                 messagebox.showerror("Error", "Undefined")
+                 return None
         return a / b
 def modulus(a, b):
-    if b == 0:
-        messagebox.showerror("Error", "Undefined")
-        return None
-    return a % b
+        if b == 0:
+                messagebox.showerror("Error", "Undefined")
+                return None
+        return a % b
 
 #  history of previous calculations 
 def update_history(num1, op, num2, result):
