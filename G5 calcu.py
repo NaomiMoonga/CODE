@@ -89,7 +89,7 @@ def memory_subtract():
         memory -= value
         messagebox.showinfo("Memory", f"Subtracted from memory: {memory}")
     except:
-        messagebox.showerror("Memory Error", "No valid result to subtract.")
+        messagebox.showerror("Memory Error", "Invalid value.")
 
 def memory_recall():
     entry1.delete(0, tk.END)
