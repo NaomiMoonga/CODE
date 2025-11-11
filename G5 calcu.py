@@ -37,7 +37,7 @@ def show_history():
     else:
         messagebox.showinfo("History", "\n".join(history))
 
-# clear history
+# erase history
 def clear_history():
     history.clear()
     messagebox.showinfo("Previous history", "History deleted.")
