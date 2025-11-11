@@ -103,7 +103,7 @@ def memory_clear():
 
 # Graphical User Interface setup
 root = tk.Tk()
-root.title("G5 Calculator")
+root.title("G5 CALCULATOOR")
 
 tk.Label(root, text="First Number").grid(row=0, column=0)
 entry1 = tk.Entry(root)
