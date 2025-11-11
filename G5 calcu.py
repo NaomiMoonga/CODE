@@ -6,22 +6,22 @@ history = []
 memory = 0
 
 # Arithmetic functions
-def subtract(a, b): 
-        return a - b
-def add(a, b): 
-        return a + b
-def multiply(a, b): 
-        return a * b
-def divide(a, b):
+def subtract(K, b): 
+        return K - b
+def add(K, b): 
+        return K + b
+def multiply(K, b): 
+        return K * b
+def divide(K, b):
         if b == 0:
                  messagebox.showerror("Error", "Undefined")
                  return None
-        return a / b
-def modulus(a, b):
+        return K / b
+def modulus(K, b):
         if b == 0:
                 messagebox.showerror("Error", "Undefined")
                 return None
-        return a % b
+        return K % b
 
 #  history of previous calculations 
 def update_history(num1, op, num2, result):
