@@ -101,7 +101,7 @@ def memory_clear():
     memory = 0
     messagebox.showinfo("Memory", "Memory cleared.")
 
-# Graphical User Interface setup
+# Graphical User Interface
 root = tk.Tk()
 root.title("G5 CALCULATOOR")
 
