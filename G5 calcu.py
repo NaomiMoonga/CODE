@@ -42,7 +42,7 @@ def clear_history():
     history.clear()
     messagebox.showinfo("Previous history", "History deleted.")
 
-# work calculation
+# work calculations
 def calculate():
     try:
         num1 = float(entry1.get())
